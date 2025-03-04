@@ -76,7 +76,7 @@ const noWorkDays = empDailyData
     .filter(record => record.hoursWorked === 0)
     .map(record => `Day ${record.day}`);
 console.log("No Working Days:", noWorkDays);
-
+   
 let fullTimeDays = dailyRecords.filter(record => record.wage === FULL_TIME_WAGE);
 console.log("Days with Full-Time Wage:", fullTimeDays.map(record => `Day ${record.day}`));
 
