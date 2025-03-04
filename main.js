@@ -87,7 +87,7 @@ console.log("First Full-Time Wage Earned On:", firstFullTimeDay ? `Day ${firstFu
 let isEveryFullTime = fullTimeDays.every(record => record.wage === FULL_TIME_WAGE);
 console.log("Is Every Full-Time Wage Exactly 160?", isEveryFullTime);
 
-
+         
 let hasPartTimeWage = dailyRecords.some(record => record.wage === PART_TIME_HOURS * WAGE_PER_HOUR);
 console.log("Is there any Part-Time Wage?", hasPartTimeWage);
 
